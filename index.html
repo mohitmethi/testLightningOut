@@ -5,7 +5,7 @@
 <script>
 const appName='c:CIAMLightningOutComponent';
 //const componentName='c:lightningOutComponent';
-const componentName='c:EWI_UserLogin';
+const componentName='c:CIAMLoginComponent';
 	
 const lightningEndPoint='https://eciam--dspft.sandbox.my.site.com';
 const targetElement = document.querySelector("[data-lightning-out]");
@@ -14,10 +14,6 @@ const componentAttributes = {};
 $Lightning.use( appName, function(){$Lightning.createComponent(componentName,componentAttributes,targetElement, function(cmp) {console.log('lightning component created');});}, lightningEndPoint );
 				
 </script>
-
-<div> <iframe src="https://uat-www.eon.de/de/de/pk.html" width="100%" height="300" title="Login">
-</iframe>
-	</div>
 </html>
 
   
